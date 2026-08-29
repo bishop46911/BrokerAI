@@ -1,0 +1,4 @@
+interface:
+  display_name: "Broker AI Governance"
+  short_description: "Review Broker AI changes for release readiness"
+  default_prompt: "Use $broker-ai-governance to review this Broker AI change and produce a release recommendation."

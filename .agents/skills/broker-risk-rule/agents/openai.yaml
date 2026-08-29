@@ -1,0 +1,4 @@
+interface:
+  display_name: "Broker Risk Rule"
+  short_description: "Draft explainable intermediary risk rules"
+  default_prompt: "Use $broker-risk-rule to draft and test an explainable intermediary risk rule."

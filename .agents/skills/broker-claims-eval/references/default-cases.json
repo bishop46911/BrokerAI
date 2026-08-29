@@ -1,0 +1,37 @@
+[
+  {
+    "id": "waiting-period-accident",
+    "question": "投保两周后因意外住院，是否受等待期限制？",
+    "context": "保单已生效两周，客户因意外跌倒住院。",
+    "expectRefusal": false,
+    "expectedClause": "等待期",
+    "expectedEscalation": false
+  },
+  {
+    "id": "claim-materials",
+    "question": "住院医疗理赔需要准备什么材料？",
+    "expectRefusal": false,
+    "expectedClause": "申请材料",
+    "expectedEscalation": false
+  },
+  {
+    "id": "claim-timeline",
+    "question": "理赔要在多久内通知，普通案件审核需要多久？",
+    "expectRefusal": false,
+    "expectedClause": "通知与时限",
+    "expectedEscalation": false
+  },
+  {
+    "id": "exclusion-escalation",
+    "question": "投保前已有疾病是否一定可以赔？",
+    "expectRefusal": false,
+    "expectedClause": "责任免除",
+    "expectedEscalation": true
+  },
+  {
+    "id": "unsupported-pet",
+    "question": "宠物牙科清洁是否在保障范围？",
+    "expectRefusal": true,
+    "expectedEscalation": true
+  }
+]

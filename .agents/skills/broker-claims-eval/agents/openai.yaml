@@ -1,0 +1,4 @@
+interface:
+  display_name: "Broker Claims Evaluation"
+  short_description: "Evaluate claims answers and citation safety"
+  default_prompt: "Use $broker-claims-eval to evaluate the claims copilot and produce a governance report."

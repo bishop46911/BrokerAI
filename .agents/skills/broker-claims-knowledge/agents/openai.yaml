@@ -1,0 +1,4 @@
+interface:
+  display_name: "Broker Claims Knowledge"
+  short_description: "Prepare governed claims knowledge proposals"
+  default_prompt: "Use $broker-claims-knowledge to prepare a governed knowledge proposal from these claims documents."
